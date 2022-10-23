@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survay Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Survay Form</h1>
+    <form action="">
+        <h1>Let us know how we can improve  FreeCodeCamp</h1>
+        <p>*Name: <input type="text" name="name" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>
+                Male <input type="radio" name="gender" id="male">
+                Female <input type="radio" name="gender" id="female">
+            </p>
+        </fieldset>
+        <p>*Email: <input type="email" name="email" id="email" required></p>
+        <p>*Age: <input type="number" name="age" id="age" required></p>
+        <p>Which option best describes your current role?
+           <select name="role" id="role">
+            <option value="student">Student</option>
+            <option value="employee">Employee</option>
+            <option value="professional">Professional</option>
+           </select>
+        </p>
+            
+        <fieldset>
+          <legend>How likely is that you would recommend freeCodeCamp to a freiend?</legend>
+            <p> 
+                <input type="radio" name="def" id="def">Definitely <br>
+                <input type="radio" name="def" id="be">Maybe <br>
+                <input type="radio" name="def" id="notsure">Not sure
+            </p>
+        </fieldset>
+        <p>What do you like most in FCC:
+            <select name="role" id="role" >
+             <option value="challange">Challenges</option>
+             <option value="creative">Creative</option>
+             <option value="execution">Execution</option>
+            </select>
+         </p>
+         <p>Things that should be improved in the <br> future(Check all that apply):<br>
+             <input type="checkbox" name="frontend" id=""> Front-end Projects <br>
+             <input type="checkbox" name="backend" id=""> Back-end Projects <br>
+             <input type="checkbox" name="data" id=""> Data Visualization <br>
+             <input type="checkbox" name="challenge" id=""> Challenges <br>
+             <input type="checkbox" name="opensource" id=""> Open Sorce Community <br>
+             <input type="checkbox" name="gitter" id=""> Gitter help rooms <br>
+             <input type="checkbox" name="videes" id=""> Videos <br>
+             <input type="checkbox" name="city" id=""> City meetups <br>
+             <input type="checkbox" name="wiki" id=""> Wiki <br>
+             <input type="checkbox" name="forum" id=""> Forum <br>
+         </p>
+    </form>
+</body>
+</html>
